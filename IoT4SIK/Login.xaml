@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IoT4SIK.View1">
+    <ContentView.Content>
+        <StackLayout>
+            
+            <Frame BackgroundColor="CornflowerBlue">
+                <Label TextColor="GhostWhite"  Text="Smart Industrial Kitchen - Login"/>
+            </Frame>
+
+            <Entry x:Name="Login" Placeholder="Username or Email"></Entry>
+            <Entry x:Name="Login" Placeholder="Password" IsPassword="True"></Entry>
+
+            <Button Clicked="Button_Clicked" Text="Log In" Padding="15"></Button>
+
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
+
